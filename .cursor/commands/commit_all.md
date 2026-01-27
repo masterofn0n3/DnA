@@ -1,0 +1,2 @@
+- Run all git commands in **zsh** (e.g. `zsh -c "git add ."`).
+- At repo root: run `git add .`, use the message in the command, commit with that message
