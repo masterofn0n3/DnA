@@ -1,0 +1,1 @@
+- Run git add . at root, then ask user what message do they want to add, use that message to commit, then run git push
