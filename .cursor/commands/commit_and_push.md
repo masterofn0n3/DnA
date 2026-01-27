@@ -1,2 +1,3 @@
 - Run all git commands in **zsh** (e.g. `zsh -c "git add ."`).
 - At repo root: run `git add .`, use the message in the command, commit with that message, then run `git push`.
+- Run `git push` with **`required_permissions: ['all']`** so it runs outside the sandbox and can reach GitHub.
