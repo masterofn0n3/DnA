@@ -1,8 +1,4 @@
-package main
-
-func main() {
-
-}
+package containduplicate
 
 func containsDuplicate(nums []int) bool {
 	dupMap := map[int]struct{}{}

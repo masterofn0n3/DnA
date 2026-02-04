@@ -6,7 +6,7 @@
 
 ## Solution
 
-[Code](../../src/contain_duplicate/main.go)
+[Code](../../src/217_contain_duplicate/main.go)
 
 ## Status
 
