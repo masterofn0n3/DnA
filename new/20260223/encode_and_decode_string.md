@@ -20,6 +20,7 @@ O(n)
 
 ## Failure
 
+- Range function will override the index, so use self define index
 - Use string.Builder instead of result += because every string concat allo a new string
 - Use string.Index to find index of a char instead of using a inner loop
 - Can drop the first # to simplify the delim, also remove the infinite loop risks
