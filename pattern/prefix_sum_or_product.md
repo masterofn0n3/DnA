@@ -1,3 +1,7 @@
 - use additional array(s) to store the accumulate value of sum/product
 - after that, retrieve total sum or product value take O(1)
 - Edge case like [LC 238 Product of Array Except Self](../../new/20260223/238_Product of Array Except Self.md): need 2 arrays to store prefix/suffix from both directions
+
+# Use cases
+
+- [42 trapping rain water](../new/20260302/42_trapping_rain_water.md)
