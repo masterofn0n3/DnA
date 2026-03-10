@@ -1,0 +1,2 @@
+- Pattern: Leverage a stack like data structure with pop, push method
+- Use cases: next greater/smaller element [739_daily_temp](../new/20260309/739_daily_temperatures.md)
