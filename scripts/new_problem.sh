@@ -10,6 +10,7 @@ URL="${2:?Usage: $0 \"<title>\" \"<url>\"}"
 
 # Monday of current week (YYYYMMDD), portable (Linux + macOS)
 MONDAY=$(python3 -c "from datetime import datetime, timedelta; d=datetime.now(); m=d-timedelta(days=d.weekday()); print(m.strftime('%Y%m%d'))")
+TODAY=$(date +%Y%m%d)
 
 # Slug from title: "11. Container with most water" -> 11_container_with_most_water
 if [[ "$TITLE" =~ ^([0-9]+)\.\s*(.*)$ ]]; then
@@ -37,6 +38,10 @@ else
 ## Link
 
 [Leetcode](${URL})
+
+## Solve Date
+
+${TODAY}
 
 ## Solution
 
