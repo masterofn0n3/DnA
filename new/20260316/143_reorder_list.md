@@ -14,15 +14,18 @@
 
 ## Status
 
-<!-- NEW | IN PROGRESS | DONE -->
+DONE
 
 ## Core idea
 
-<!-- Pattern, key insight, time/space -->
+- use slow fast pointer to figure out the middle of the list
+- reverse the second half
+- merge 2 list
+- O(n)
 
 ## Failure
 
-<!-- What went wrong / what to avoid next time -->
+- still couldn't grasp the idea off the list problem, I mean its easy to though of the step in my head, but when I actually implemented it, I don't know which to keep track
 
 ## Success
 
@@ -30,4 +33,4 @@
 
 ## Tags
 
-<!-- e.g. array, hash-set, sorting -->
+`linked-list`
