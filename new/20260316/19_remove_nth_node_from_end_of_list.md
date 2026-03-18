@@ -25,11 +25,11 @@ when the fast pointer reach the end, meaning the slow pointer is right before at
 
 ## Failure
 
-- need detail sample list to detail out the solution but I'm not sure if this is a failure, but I'm a loser so I'm gonna put it here
+- need detail sample list to detail out the solution but I'm not sure if this is a failure, but I'm a self-loadthing ass so I'm gonna put it here
 ## Success
 
-<!-- What went well / what to reuse -->
+- Manage to solve it without too much hassle, nice
 
 ## Tags
 
-<!-- e.g. array, hash-set, sorting -->
+`linked-list`
