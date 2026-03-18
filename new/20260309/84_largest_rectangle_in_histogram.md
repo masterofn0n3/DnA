@@ -22,6 +22,7 @@ DONE while as was a little bit drunk
 - use a stack to store the next smaller column for both direction
 - then `width = (right-left-1)*height)`
 - for element that we couldn't find next lower left and right, need to replace them with len(heights) -1 , and -1 to apply for the formula above
+- furthur optimize by add 0 at the end to make every column greater than it, remove the clean up pass
 - could do in once pass instead of 4 pass like I do //todo rewrite in one pass in the next review
 - O(n)
 
