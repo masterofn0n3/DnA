@@ -1,2 +1,3 @@
 - 2 pointer move forward in the list, one fast one slow, fast move x2 slow, when fast reach the end of the list, mean slow is at middle of the list
 - usually apply to find the middle node of the linked list
+- also for cycle detection and cycle start detection, I've describe this detail in [287 Find duplicated number](../new/20260316/287_find_the_duplicate_number.md)
