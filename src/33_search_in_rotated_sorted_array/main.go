@@ -12,7 +12,7 @@ func search(nums []int, target int) int {
 	}
 	// 4 5 6 7 0 1 2
 	// nums[left] = 0
-	if nums[len(nums)-1] > target {
+	if nums[len(nums)-1] < target {
 		right = left - 1
 		left = 0
 	} else {

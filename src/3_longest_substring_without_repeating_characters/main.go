@@ -11,8 +11,9 @@ package main
 	b 1
 	c 1
 	a already 1 => duplicated => but i don't know which position the last a belong to, do I need store it
-	abca
+	abcad
 	01
+	aa
 
 */
 func lengthOfLongestSubstring(s string) int {
