@@ -260,7 +260,11 @@ if [[ -f "$MAIN_GO" ]]; then
 else
   mkdir -p "$SRC_DIR"
   if [[ -n "$GO_TEMPLATE" ]]; then
-    printf '%s\n' "$GO_TEMPLATE" >"$MAIN_GO"
+    if [[ "$GO_TEMPLATE" =~ ^[[:space:]]*package[[:space:]]+main([[:space:]]|$) ]]; then
+      printf '%s\n' "$GO_TEMPLATE" >"$MAIN_GO"
+    else
+      printf 'package main\n\n%s\n' "$GO_TEMPLATE" >"$MAIN_GO"
+    fi
   else
     cat >"$MAIN_GO" <<'GOEOF'
 package main
