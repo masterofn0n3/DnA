@@ -42,7 +42,7 @@ func (this *Trie) StartsWith(prefix string) bool {
 		}
 		current = current.children[index]
 	}
-	return current.isEnd
+	return true
 }
 
 /**

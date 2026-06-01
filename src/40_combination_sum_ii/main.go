@@ -31,7 +31,6 @@ func combinationSum2(candidates []int, target int) [][]int {
 		}
 
 		comSum(index+1, currentSum+candidates[index], append(sumArr, candidates[index]))
-		// 1 => 1 1 => 1 1 2
 		nextIdx := index + 1
 		for nextIdx < len(candidates) && candidates[nextIdx] == candidates[index] {
 			nextIdx++
