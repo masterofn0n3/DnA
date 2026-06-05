@@ -1,0 +1,10 @@
+- A heap is a datastruct similar to binary tree, but the leaf is alway smaller, or bigger than its parent, depend on the type of tree: bigger is min heap, smaller is max heap
+- A heap is represent by an array `[root, leftchild, rightchild, leftchild's leftchild, leftchild's rightchild, and so on]`
+- for a index i
+  - `left = (i\*2) + 1`, left exist if left < len(arr)
+  - `right = (i\*2) + 2`, right exist if right < len(arr)
+  - `parent = (i-1)/2`
+  - the last node that had children is `len(arr)/2 - 1`
+- a heap had few core operation
+  - bubbleDown: compare the current node with its child, switch values if its smaller/bigger, stop when no child are found/or smaller than both children, use when creating the tree, or remove the root from the tree
+  - bubbleUp: compare the current node with its parent, switch values, set current node to its parent, stop when current node index = 0, use when add a new leaf to the end of the tree
