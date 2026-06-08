@@ -45,11 +45,14 @@ Constraints:
 
 ## Status
 
-<!-- NEW | IN PROGRESS | DONE -->
+DONE
 
 ## Core idea
 
-<!-- Pattern, key insight, time/space -->
+- create a heap
+- pop k times
+- done => O(n + k log n)
+- more optimize way, use a max heap, add k element to it, for remaining element, pop and push => O(n log k)
 
 ## Failure
 
@@ -57,7 +60,8 @@ Constraints:
 
 ## Success
 
-<!-- What went well / what to reuse -->
+- lol why this problem is medium
+- its exactly the same as previous one
 
 ## Tags
 
