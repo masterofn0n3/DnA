@@ -53,6 +53,7 @@ DONE
 ## Core idea
 
 - same as house robber, but separate into 2 sub array, 1 skip the first, 1 skip the last, and use the same logic as house robber for each
+- remember to add a guard of len = 1 in the main func
 
 ## Failure
 

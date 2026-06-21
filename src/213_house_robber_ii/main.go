@@ -1,6 +1,9 @@
 package main
 
 func rob(nums []int) int {
+	if len(nums) == 1 {
+		return nums[0]
+	}
 	return max(robHelper(nums[1:]), robHelper(nums[:len(nums)-1]))
 }
 

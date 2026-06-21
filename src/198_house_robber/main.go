@@ -15,7 +15,7 @@ func rob(nums []int) int {
 	}
 	dp := []int{nums[0], max(nums[1], nums[0])}
 
-	for i := 2; i <= len(nums); i++ {
+	for i := 2; i < len(nums); i++ {
 		dp = append(dp, max(dp[i-2]+nums[i], dp[i-1]))
 	}
 
