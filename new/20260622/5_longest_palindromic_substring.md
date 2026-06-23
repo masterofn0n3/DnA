@@ -39,20 +39,23 @@ s consist of only digits and English letters.
 
 ## Status
 
-<!-- NEW | IN PROGRESS | DONE -->
+DONE
 
 ## Core idea
 
-<!-- Pattern, key insight, time/space -->
+- consider each index a valid center, expand from it with 2 case, odd cases then then currrent index is center, even case when current and current + 1 index is center
+- write a helper function for the expansion logic
+- beware of the cases end > start, when pass in i and i+1 and the value is not equal, so the helper return start < end, so we need a guard for that at the outer func:  end >= start(we have = because `bb` still is a valid cases)
 
 ## Failure
 
-<!-- What went wrong / what to avoid next time -->
+- too many index book keeping, hate these type of problem
+- this is expand from center approach, I haven't try the dp approach yet
 
 ## Success
 
-<!-- What went well / what to reuse -->
+
 
 ## Tags
 
-<!-- e.g. array, hash-set, sorting -->
+`dp`
