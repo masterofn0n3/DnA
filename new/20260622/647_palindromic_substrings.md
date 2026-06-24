@@ -44,20 +44,20 @@ s consists of lowercase English letters.
 
 ## Status
 
-<!-- NEW | IN PROGRESS | DONE -->
+DONE
 
 ## Core idea
 
-<!-- Pattern, key insight, time/space -->
+- same as [5 longest palindromic substring](./5_longest_palindromic_substring.md)
 
 ## Failure
 
-<!-- What went wrong / what to avoid next time -->
+- still don't know how to use the dp way
 
 ## Success
 
-<!-- What went well / what to reuse -->
+- didn't need to code anything, just adjust the string to a counter
 
 ## Tags
 
-<!-- e.g. array, hash-set, sorting -->
+`dp` `array`
